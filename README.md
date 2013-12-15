@@ -1,6 +1,6 @@
 ebankdo_r4_Jax-WS-1
 ========================
-Banking R4. Java, JAX-WS, Spring 3, Hibernate 3.
+Banking R4. Java, JAX-WS, Spring 3, Hibernate 3, ORACLE.
 
 Description:
 -------------------
@@ -12,7 +12,7 @@ Functionalities:
 
 Technologies used:
 -------------------
-- Server Side Technology: Web Services (Jax-WS 2.2.11), Spring Framework 3.2.2.RELEASE, Hibernate 4.2.0.Final, Maven 2.
+- Server Side Technology: Web Services (Jax-WS 2.2.11), Spring Framework 3.2.2.RELEASE, Hibernate 4.2.0.Final, Maven 2, ORACLE Database 11g R2.
 - Client Side Technology: N/A
 - IDE: Eclipse Java EE IDE for Web Developers.
 
@@ -41,6 +41,10 @@ Build and Deploy
 
  - Generate WAR file
  - Create a DB: Setup/DB/ebankdo_r1_db_mysql.sql
+ - Copy Oracle Library to Tomcat:
+    copy ebankdo-r4-JAX-WS/src/main/resources/jars/ojdbc6.jar 
+            to
+         $TOMCAT_HOME/webapps/ebankdo-r4-JAX-WS-1/WEB-INF/lib/ojdbc6.jar
  - Upload by Tomcat manager http://localhost:8080/manager/
  
 
