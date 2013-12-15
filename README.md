@@ -51,10 +51,10 @@ Build and Deploy
 
 Significant Note:
 - Do not use this project to production without making the following changes.
-  1) Make a good DB structure and tables like sequence, Auto Increment,constrains, index, view and normalization.
-  2) Modified the Hibernate Properties "create-drop", if you used that, the production table be erase.
-  3) Move the validation message to file.properties, so you can have the capacity of a multi language application.
-  4) encrypt the user's password
+- 1) Make a good DB structure and tables like sequence, Auto Increment,constrains, index, view and normalization.
+- 2) Modified the Hibernate Properties "create-drop", if you used that, the production table be erase.
+- 3) Move the validation message to file.properties, so you can have the capacity of a multi language application.
+- 4) encrypt the user's password.
 
 
 Deploy and Testing in
